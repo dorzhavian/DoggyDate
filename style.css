@@ -26,3 +26,12 @@
   height: 100px;
   border-radius: 50%;
 }
+
+/* zoom to the card */
+.card {                                           
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
